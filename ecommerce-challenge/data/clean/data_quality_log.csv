@@ -1,0 +1,36 @@
+table,step,rows_affected,note
+customers,Raw rows,52500,
+customers,Spaces trimmed,2500,"e.g. "" B123"" -> ""B123"""
+customers,Duplicate buyer_ids in the raw file,4999,
+customers,Exact duplicate rows removed,2500,
+customers,Duplicate non-blank buyer_ids left after dedupe,0,0 = no real customer records needed merging
+customers,Blank buyer_id rows dropped,2500,cannot be joined to an order
+customers,signup_date converted to a real date,47020,480 were blank in the raw file
+customers,Blank region filled from state,4763,0 still blank
+customers,Blank timezone filled from state,2369,0 still blank
+customers,is_referred = 2 set to unknown (NA),473,
+customers,Clean rows,47500,
+products,Vendor files read,11,
+products,Files with margin column renamed (pct_profit_margin),2,
+products,Raw rows,1037,
+products,Margins stored as % converted to a fraction,224,"JDTOJ.csv, ROPIK.csv"
+products,Products with a negative margin (kept: sold at a loss),111,lowest -4.4%
+products,IDs uppercased,46,
+products,$ and commas removed from price,46,
+products,True/False flags with mixed spellings standardised,151,Y / 1 / 0 -> True / False
+products,product_num sold by more than one vendor,245,-> new key sku_id
+products,Clean rows,1037,
+sales,Raw rows,376004,
+sales,Spaces trimmed,18770,
+sales,Exact duplicate rows removed,24878,
+sales,Unix-timestamp dates converted,4429,
+sales,'1/1/70' placeholder dates set to null,179,
+sales,'Deliverred' typo corrected,3545,
+sales,Bad quantities (missing or outside 1-3) set to null and flagged,394,
+sales,Blank buyer_id filled from the same order,163,
+sales,Blank order_status filled from the same order,1919,
+sales,Repeated order+product lines collapsed into one,2221,most common quantity; tied status -> Cancelled
+sales,Orders with no status labelled 'Unknown' (left out of revenue),1662,
+sales,Lines from buyers missing from the customer table (flagged),16889,
+sales,Lines with no buyer_id at all (flagged),159,
+sales,Clean rows,348905,
