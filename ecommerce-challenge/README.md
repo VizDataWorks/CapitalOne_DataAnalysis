@@ -1,6 +1,6 @@
 # eCommerce - Sales Data Analysis
 
-Analysis of the [Capital One DA E-Commerce Data Challenge](https://github.com/CapitalOneRecruiting/DA-E-Commerce-Data-Challenge) data in Python and SQL.
+Analysis of the [C1 Github](https://github.com/CapitalOneRecruiting/DA-E-Commerce-Data-Challenge) data in Python and SQL.
 
 ## How to view or run
 
