@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/34305767/README.md)
 # E-Commerce Data Challenge
 
-Analysis of the [Capital One DA E-Commerce Data Challenge](https://github.com/CapitalOneRecruiting/DA-E-Commerce-Data-Challenge) in Python (pandas) on Google Colab.
+Analysis of the [DA E-Commerce Data Challenge](https://github.com/CapitalOneRecruiting/DA-E-Commerce-Data-Challenge) in Python (pandas) on Google Colab.
 
 ## How to view or run
 
