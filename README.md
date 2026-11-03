@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/34305767/README.md)
-# Capital One E-Commerce Data Challenge
+# E-Commerce Data Challenge
 
 Analysis of the [Capital One DA E-Commerce Data Challenge](https://github.com/CapitalOneRecruiting/DA-E-Commerce-Data-Challenge) in Python (pandas) on Google Colab.
 
@@ -12,15 +12,15 @@ Analysis of the [Capital One DA E-Commerce Data Challenge](https://github.com/Ca
 
 | # | Question | Answer | Run |
 |---|---|---|---|
-| 01 | [Order volume by hour: is 24/7 staffing needed?](ecommerce-challenge/notebooks/01_order_volume_by_hour.ipynb) | **No.** 91.4% of orders arrive 6 AM–midnight CT; an average night brings about 27 orders. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/01_order_volume_by_hour.ipynb) |
-| 02 | [Average profit per order by quarter and segment](ecommerce-challenge/notebooks/02_profit_per_order_by_quarter.ipynb) | Tech Enthusiasts lead every quarter (\$85.88 per order vs \$24–32). Q4 2024 peaked; 2025 was flat. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/02_profit_per_order_by_quarter.ipynb) |
-| 03 | [Revenue lost to the referral program](ecommerce-challenge/notebooks/03_referral_program.ipynb) | \$21,325 net over two years, about \$6 per referred customer. **Keep it:** referred customers are as valuable as others. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/03_referral_program.ipynb) |
-| 04 | [Black Friday's impact on annual sales by segment](ecommerce-challenge/notebooks/04_black_friday_impact.ipynb) | About 4× a normal day's orders, but only about 1% of the year's orders and revenue. Revenue fell 24% in 2025. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/04_black_friday_impact.ipynb) |
-| 05 | [Our best customer base, and KPIs to grow it](ecommerce-challenge/notebooks/05_best_customer_base.ipynb) | Tech Enthusiasts: 12.6% of customers, 30.8% of profit (\$404 each). Track CAC (under about \$135), activation and electronics stock. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/05_best_customer_base.ipynb) |
+| 01 | [Order volume by hour: is 24/7 staffing needed?](/notebooks/01_order_volume_by_hour.ipynb) | **No.** 91.4% of orders arrive 6 AM–midnight CT; an average night brings about 27 orders. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/01_order_volume_by_hour.ipynb) |
+| 02 | [Average profit per order by quarter and segment](notebooks/02_profit_per_order_by_quarter.ipynb) | Tech Enthusiasts lead every quarter (\$85.88 per order vs \$24–32). Q4 2024 peaked; 2025 was flat. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/02_profit_per_order_by_quarter.ipynb) |
+| 03 | [Revenue lost to the referral program](ecommerce-challenge/notebooks/03_referral_program.ipynb) | \$21,325 net over two years, about \$6 per referred customer. **Keep it:** referred customers are as valuable as others. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/03_referral_program.ipynb) |
+| 04 | [Black Friday's impact on annual sales by segment](ecommerce-challenge/notebooks/04_black_friday_impact.ipynb) | About 4× a normal day's orders, but only about 1% of the year's orders and revenue. Revenue fell 24% in 2025. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/04_black_friday_impact.ipynb) |
+| 05 | [Our best customer base, and KPIs to grow it](ecommerce-challenge/notebooks/05_best_customer_base.ipynb) | Tech Enthusiasts: 12.6% of customers, 30.8% of profit (\$404 each). Track CAC (under about \$135), activation and electronics stock. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/05_best_customer_base.ipynb) |
 
 ## Data cleaning
 
-[Notebook 00](ecommerce-challenge/notebooks/00_data_cleaning.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/CapitalOne_DataAnalysis/blob/main/ecommerce-challenge/notebooks/00_data_cleaning.ipynb) turns the raw files into three clean tables. Notebooks 01–05 read those tables, so each runs on its own.
+[Notebook 00](notebooks/00_data_cleaning.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VizDataWorks/ecommerce_data_analysis/blob/main/notebooks/00_data_cleaning.ipynb) turns the raw files into three clean tables. Notebooks 01–05 read those tables, so each runs on its own.
 
 | Table | Raw rows | Clean rows | Main fixes |
 |---|---|---|---|
